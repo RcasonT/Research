@@ -1917,3 +1917,512 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.01-02.50.46:054][827]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
 [2025.05.01-02.50.46:056][827]LogLoad: Took 0.071987 seconds to LoadMap(/Game/UEDPIE_0_MenuMap)
 [2025.05.01-02.50.46:056][827]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.52.12:537][526]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1030.326538
+[2025.05.01-02.52.13:537][529]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.01-02.52.13:537][529]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1030.993164, Update Interval: 341.566223
+[2025.05.01-02.54.49:950][181]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/ThirdPersonMap"
+[2025.05.01-02.54.49:950][181]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.05.01-02.54.49:950][181]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.05.01-02.54.49:950][181]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.54.49:951][181]LogWorld: UWorld::CleanupWorld for MenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.54.49:951][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.54.50:019][181]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.01-02.54.50:022][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.05.01-02.54.50:023][181]LogStreaming: Display: FlushAsyncLoading(2445): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.01-02.54.50:049][181]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2025.05.01-02.54.50:049][181]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.05.01-02.54.50:050][181]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.01-02.54.50:050][181]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.01-02.54.50:050][181]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.05.01-02.54.50:050][181]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.01-02.54.50:062][181]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.05.01-02.54.50:081][181]LogStreaming: Display: FGlobalImportStore:AddPackageRef: Dropping stale reference to package /Game/ThirdPerson/Maps/ThirdPersonMap (0x4E47B0E053B7833B) that has been renamed to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap (0x47219D28FC5F92AF)
+[2025.05.01-02.54.50:191][181]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 129.132 ms (total: 2.99 sec)
+[2025.05.01-02.54.50:200][181]LogWorldPartition: Display: WorldPartition initialize took 148.585 ms (total: 6.02 sec)
+[2025.05.01-02.54.50:200][181]LogPlayLevel: PIE: World Init took: (0.150311s)
+[2025.05.01-02.54.50:200][181]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.01-02.54.50:219][181]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.30-22.54.50
+[2025.05.01-02.54.50:220][181]LogWorld: Bringing up level for play took: 0.019756
+[2025.05.01-02.54.50:225][181]LogLoad: Took 0.274735 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2025.05.01-02.54.50:225][181]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.05.01-02.55.10:690][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-02.55.10:690][168]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.05.01-02.55.10:690][168]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.55.10:694][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.10:694][168]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.05.01-02.55.10:700][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.01-02.55.10:705][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.10:731][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-02.55.10:731][168]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.05.01-02.55.10:732][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.01-02.55.10:734][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.01-02.55.10:750][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.05.01-02.55.10:773][169]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.05.01-02.55.12:440][364]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.01-02.55.12:447][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.01-02.55.12:470][364]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.55.12:471][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000967s)
+[2025.05.01-02.55.12:471][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuMap.MenuMap to /Game/UEDPIE_0_MenuMap.MenuMap (0.001003s)
+[2025.05.01-02.55.12:495][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.05.01-02.55.12:496][364]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuMap
+[2025.05.01-02.55.12:498][364]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2025.05.01-02.55.12:498][364]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.05.01-02.55.12:498][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.01-02.55.12:498][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.01-02.55.12:498][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.01-02.55.12:498][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.01-02.55.12:498][364]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.01-02.55.12:498][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.01-02.55.12:498][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.01-02.55.12:498][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.01-02.55.12:498][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.01-02.55.12:498][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.01-02.55.12:498][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.01-02.55.12:500][364]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.01-02.55.12:532][364]LogAudioMixer: Display: Using Audio Hardware Device DELL U3415W (NVIDIA High Definition Audio)
+[2025.05.01-02.55.12:532][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.01-02.55.12:532][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.01-02.55.12:532][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.01-02.55.12:533][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.05.01-02.55.12:533][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.05.01-02.55.12:535][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.05.01-02.55.12:535][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.05.01-02.55.12:535][364]LogInit: FAudioDevice initialized with ID 7.
+[2025.05.01-02.55.12:535][364]LogAudio: Display: Audio Device (ID: 7) registered with world 'MenuMap'.
+[2025.05.01-02.55.12:535][364]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.05.01-02.55.12:539][364]LogLoad: Game class is 'MenuGameMode_C'
+[2025.05.01-02.55.12:539][364]LogWorld: Bringing World /Game/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 0) at 2025.04.30-22.55.12
+[2025.05.01-02.55.12:539][364]LogWorld: Bringing up level for play took: 0.000417
+[2025.05.01-02.55.12:541][364]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.05.01-02.55.12:544][364]PIE: Server logged in
+[2025.05.01-02.55.12:545][364]PIE: Play in editor total start time 0.1 seconds.
+[2025.05.01-02.55.13:602][480]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/ThirdPersonMap"
+[2025.05.01-02.55.13:602][480]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.05.01-02.55.13:602][480]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.05.01-02.55.13:602][480]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.55.13:602][480]LogWorld: UWorld::CleanupWorld for MenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.55.13:602][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.13:665][480]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.01-02.55.13:667][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.05.01-02.55.13:668][480]LogStreaming: Display: FlushAsyncLoading(2819): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.01-02.55.13:694][480]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2025.05.01-02.55.13:694][480]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.05.01-02.55.13:696][480]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.01-02.55.13:696][480]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.01-02.55.13:696][480]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.05.01-02.55.13:696][480]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.01-02.55.13:707][480]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.05.01-02.55.13:726][480]LogStreaming: Display: FGlobalImportStore:AddPackageRef: Dropping stale reference to package /Game/ThirdPerson/Maps/ThirdPersonMap (0x4E47B0E053B7833B) that has been renamed to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap (0x47219D28FC5F92AF)
+[2025.05.01-02.55.13:836][480]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 128.154 ms (total: 3.12 sec)
+[2025.05.01-02.55.13:844][480]LogWorldPartition: Display: WorldPartition initialize took 147.525 ms (total: 6.17 sec)
+[2025.05.01-02.55.13:844][480]LogPlayLevel: PIE: World Init took: (0.149232s)
+[2025.05.01-02.55.13:844][480]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.01-02.55.13:863][480]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.30-22.55.13
+[2025.05.01-02.55.13:863][480]LogWorld: Bringing up level for play took: 0.019043
+[2025.05.01-02.55.13:867][480]LogLoad: Took 0.266132 seconds to LoadMap(/Game/ThirdPerson/Maps/ThirdPersonMap)
+[2025.05.01-02.55.13:867][480]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.05.01-02.55.17:904][878]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.01-02.55.17:904][878]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.05.01-02.55.19:402][ 40]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/MenuMap"
+[2025.05.01-02.55.19:402][ 40]LogNet: Browse: /Game/MenuMap
+[2025.05.01-02.55.19:402][ 40]LogLoad: LoadMap: /Game/MenuMap
+[2025.05.01-02.55.19:402][ 40]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.05.01-02.55.19:402][ 40]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.55.19:405][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.19:405][ 40]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.05.01-02.55.19:477][ 40]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.01-02.55.19:485][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.05.01-02.55.19:487][ 40]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.55.19:488][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000975s)
+[2025.05.01-02.55.19:488][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuMap.MenuMap to /Game/UEDPIE_0_MenuMap.MenuMap (0.001014s)
+[2025.05.01-02.55.19:488][ 40]LogAudio: Display: Audio Device (ID: 7) registered with world 'MenuMap'.
+[2025.05.01-02.55.19:488][ 40]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuMap
+[2025.05.01-02.55.19:490][ 40]LogPlayLevel: PIE: World Init took: (0.001557s)
+[2025.05.01-02.55.19:490][ 40]LogLoad: Game class is 'MenuGameMode_C'
+[2025.05.01-02.55.19:490][ 40]LogWorld: Bringing World /Game/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 0) at 2025.04.30-22.55.19
+[2025.05.01-02.55.19:490][ 40]LogWorld: Bringing up level for play took: 0.000391
+[2025.05.01-02.55.19:490][ 40]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.05.01-02.55.19:492][ 40]LogLoad: Took 0.090684 seconds to LoadMap(/Game/UEDPIE_0_MenuMap)
+[2025.05.01-02.55.19:492][ 40]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.55.21:490][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-02.55.21:490][273]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.55.21:490][273]LogWorld: UWorld::CleanupWorld for MenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.55.21:490][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.21:493][273]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.01-02.55.21:499][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.21:522][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-02.55.21:522][273]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.05.01-02.55.21:522][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.05.01-02.55.21:525][273]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.05.01-02.55.21:532][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.05.01-02.55.21:552][274]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.05.01-02.55.30:872][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.05.01-02.55.30:873][326]LogStreaming: Display: FlushAsyncLoading(3193): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.01-02.55.30:899][326]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.05.01-02.55.30:906][326]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.01-02.55.30:907][326]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.01-02.55.30:907][326]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.01-02.55.31:442][326]LogWorldPartition: Display: WorldPartition initialize took 535.613 ms (total: 6.70 sec)
+[2025.05.01-02.55.31:458][326]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.05.01-02.55.31:459][326]Cmd: MAP LOAD FILE="../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.01-02.55.31:513][326]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.55.31:513][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.31:556][326]LogWorld: UWorld::CleanupWorld for MenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.55.31:556][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.31:586][326]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.01-02.55.31:590][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.05.01-02.55.31:592][326]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.55.31:593][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.55.31:593][326]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.05.01-02.55.31:630][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.05.01-02.55.31:657][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.05.01-02.55.31:688][326]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2025.05.01-02.55.31:688][326]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.05.01-02.55.31:689][326]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.01-02.55.31:689][326]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.01-02.55.31:689][326]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.01-02.55.31:914][326]LogWorldPartition: Display: WorldPartition initialize took 224.899 ms (total: 6.93 sec)
+[2025.05.01-02.55.31:996][326]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.01-02.55.32:029][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.05.01-02.55.32:037][326]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.01-02.55.32:039][326]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.685ms to complete.
+[2025.05.01-02.55.32:085][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.01-02.55.53:094][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.01-02.55.53:099][105]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.01-02.55.53:154][105]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/63/FBKO5U1TJR9UDZAGVMZO6I
+[2025.05.01-02.55.53:154][105]LogSavePackage: Moving '../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Saved/FBKO5U1TJR9UDZAGVMZO6I1BFF373B452B2529A5649D8F9EF6FF3F.tmp' to '../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/63/FBKO5U1TJR9UDZAGVMZO6I.uasset'
+[2025.05.01-02.55.53:178][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.910 ms (total: 295.180 ms)
+[2025.05.01-02.55.53:218][105]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.01-02.55.53:218][105]LogContentValidation: Enabled validators:
+[2025.05.01-02.55.53:218][105]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.01-02.55.53:218][105]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.01-02.55.53:218][105]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.01-02.55.53:218][105]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.01-02.55.53:218][105]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.01-02.55.53:218][105]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.01-02.55.53:218][105]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.05.01-02.57.02:274][245]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.01-02.57.02:281][245]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.01-02.57.02:281][245]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.05.01-02.57.02:294][245]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 12.851 ms (total: 3.14 sec)
+[2025.05.01-02.57.02:294][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.01-02.57.02:318][245]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.05.01-02.57.02:344][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025092s)
+[2025.05.01-02.57.02:344][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.025139s)
+[2025.05.01-02.57.02:371][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.05.01-02.57.02:372][245]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.05.01-02.57.02:374][245]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.01-02.57.02:374][245]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.01-02.57.02:374][245]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.01-02.57.02:374][245]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.01-02.57.02:381][245]LogWorldPartition: Display: WorldPartition initialize took 8.115 ms (total: 6.94 sec)
+[2025.05.01-02.57.02:381][245]LogPlayLevel: PIE: World Init took: (0.009923s)
+[2025.05.01-02.57.02:382][245]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.05.01-02.57.02:382][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.01-02.57.02:382][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.01-02.57.02:382][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.01-02.57.02:382][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.01-02.57.02:382][245]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.01-02.57.02:382][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.01-02.57.02:382][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.01-02.57.02:382][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.01-02.57.02:382][245]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.01-02.57.02:383][245]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.01-02.57.02:383][245]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.01-02.57.02:385][245]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.01-02.57.02:416][245]LogAudioMixer: Display: Using Audio Hardware Device DELL U3415W (NVIDIA High Definition Audio)
+[2025.05.01-02.57.02:416][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.01-02.57.02:417][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.01-02.57.02:417][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.01-02.57.02:417][245]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.05.01-02.57.02:417][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.05.01-02.57.02:420][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.05.01-02.57.02:420][245]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.05.01-02.57.02:420][245]LogInit: FAudioDevice initialized with ID 8.
+[2025.05.01-02.57.02:420][245]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2025.05.01-02.57.02:420][245]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.05.01-02.57.02:423][245]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.01-02.57.02:438][245]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.30-22.57.02
+[2025.05.01-02.57.02:440][245]LogWorld: Bringing up level for play took: 0.015669
+[2025.05.01-02.57.02:442][245]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.05.01-02.57.02:450][245]PIE: Server logged in
+[2025.05.01-02.57.02:451][245]PIE: Play in editor total start time 0.17 seconds.
+[2025.05.01-02.57.12:378][230]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.01-02.57.12:378][230]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.05.01-02.57.13:916][398]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/MenuMap"
+[2025.05.01-02.57.13:916][398]LogNet: Browse: /Game/MenuMap
+[2025.05.01-02.57.13:916][398]LogLoad: LoadMap: /Game/MenuMap
+[2025.05.01-02.57.13:916][398]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.05.01-02.57.13:917][398]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.57.13:920][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.57.13:920][398]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.05.01-02.57.13:955][398]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.01-02.57.13:961][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.05.01-02.57.13:964][398]LogStreaming: Display: FlushAsyncLoading(4015): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.01-02.57.13:990][398]LogAudio: Display: Audio Device (ID: 8) registered with world 'MenuMap'.
+[2025.05.01-02.57.13:990][398]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuMap
+[2025.05.01-02.57.13:991][398]LogPlayLevel: PIE: World Init took: (0.001613s)
+[2025.05.01-02.57.13:991][398]LogLoad: Game class is 'MenuGameMode_C'
+[2025.05.01-02.57.13:992][398]LogWorld: Bringing World /Game/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 0) at 2025.04.30-22.57.13
+[2025.05.01-02.57.13:992][398]LogWorld: Bringing up level for play took: 0.000630
+[2025.05.01-02.57.13:992][398]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.05.01-02.57.13:994][398]LogLoad: Took 0.077192 seconds to LoadMap(/Game/MenuMap)
+[2025.05.01-02.57.13:994][398]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/MenuMap
+[2025.05.01-02.58.04:895][499]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1382.686157
+[2025.05.01-02.58.04:954][506]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.01-02.58.04:954][506]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1382.735840, Update Interval: 309.796448
+[2025.05.01-02.59.15:926][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-02.59.15:928][708]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MenuMap
+[2025.05.01-02.59.15:928][708]LogWorld: UWorld::CleanupWorld for MenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-02.59.15:928][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.59.15:932][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.01-02.59.15:937][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-02.59.15:960][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-02.59.15:961][708]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.05.01-02.59.15:961][708]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.05.01-02.59.15:963][708]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.05.01-02.59.15:971][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.05.01-02.59.16:061][709]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.05.01-03.00.23:770][409]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.05.01-03.00.23:780][409]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.05.01-03.00.23:805][410]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.05.01-03.00.26:657][672]LogContentBrowser: Attempting asset rename: NewMaterial -> MM
+[2025.05.01-03.00.26:662][672]LogContentBrowser: End creating deferred item NewMaterial
+[2025.05.01-03.00.32:251][126]LogContentBrowser: Deferred new asset file creation: MM_Inst
+[2025.05.01-03.00.32:260][126]LogContentBrowser: Creating deferred item: MM_Inst
+[2025.05.01-03.00.32:285][127]LogContentBrowser: Renaming the item being created (Deferred Item: MM_Inst).
+[2025.05.01-03.00.40:543][883]LogContentBrowser: Attempting asset rename: MM_Inst -> MM_Inst
+[2025.05.01-03.00.40:543][883]LogContentBrowser: End creating deferred item MM_Inst
+[2025.05.01-03.00.42:469][ 40]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MM.MM
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png' error.
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png
+[2025.05.01-03.00.42:479][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png' error.
+[2025.05.01-03.00.42:479][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png
+[2025.05.01-03.00.42:480][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png' error.
+[2025.05.01-03.00.42:480][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png
+[2025.05.01-03.00.42:480][ 40]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png' error.
+[2025.05.01-03.00.42:480][ 40]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png
+[2025.05.01-03.00.42:497][ 40]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2025.05.01-03.00.42:504][ 40]LogStreaming: Display: FlushAsyncLoading(4016): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.01-03.00.42:534][ 40]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.05.01-03.00.42:545][ 40]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.05.01-03.00.42:574][ 40]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.05.01-03.00.42:575][ 40]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.05.01-03.00.43:112][ 40]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.01-03.00.43:112][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.01-03.00.43:112][ 40]MaterialEditorStats: Shader Count: 0
+[2025.05.01-03.00.43:112][ 40]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.01-03.00.46:628][252]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.01-03.00.46:628][252]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.01-03.00.46:628][252]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.01-03.00.46:628][252]MaterialEditorStats: Shader Count: 1
+[2025.05.01-03.00.46:628][252]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.01-03.00.46:980][259]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.01-03.00.46:980][259]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.01-03.00.46:980][259]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.01-03.00.46:980][259]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.01-03.00.46:980][259]MaterialEditorStats: Shader Count: 3
+[2025.05.01-03.00.46:980][259]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: ================================================
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Total job queries 182, among them cache hits 30 (16.48%), DDC hits 136 (74.73%), Duplicates 1 (0.55%)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Tracking 151 distinct input hashes that result in 137 distinct outputs (90.73%)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: RAM used: 117.85 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Shaders Compiled: 15
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Jobs assigned 15, completed 15 (100%)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Time job spent in pending queue: average 1.35 s, longest 3.39 s
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Job execution time: average 1.96 s, max 3.76 s
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Job life time (pending + execution): average 3.32 s, max 4.02
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Shader code size: average 7.298 KiB, min 4.113 KiB, max 11.129 KiB
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.02 s
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Average processing rate: 3.73 jobs/sec
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Total thread time: 12.067 s
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Total thread preprocess time: 3.791 s
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Percentage time preprocessing: 31.42%
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Effective parallelization: 3.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 1.50 sec, max 1.63 sec, min 1.30 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.83 sec, max 0.85 sec, min 0.80 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.63 sec, max 0.68 sec, min 0.60 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.56 sec, max 0.60 sec, min 0.54 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.50 sec, max 0.59 sec, min 0.37 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.33% of total time (compiled    3 times, average 1.50 sec, max 1.63 sec, min 1.30 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.53% of total time (compiled    3 times, average 0.83 sec, max 0.85 sec, min 0.80 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                                 FLumenCardPS - 15.73% of total time (compiled    3 times, average 0.63 sec, max 0.68 sec, min 0.60 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.03% of total time (compiled    3 times, average 0.56 sec, max 0.60 sec, min 0.54 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.37% of total time (compiled    3 times, average 0.50 sec, max 0.59 sec, min 0.37 sec)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: === Material stats ===
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Materials Translated:    132
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Material Translation Only: 0.05 s (30%)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: Material Cache Hits: 19 (14%)
+[2025.05.01-03.02.13:898][116]LogShaderCompilers: Display: ================================================
+[2025.05.01-03.03.21:420][737]LogChaosDD: Creating Chaos Debug Draw Scene for world World_10
+[2025.05.01-03.03.30:394][324]LogChaosDD: Creating Chaos Debug Draw Scene for world World_11
+[2025.05.01-03.03.32:754][461]LogChaosDD: Creating Chaos Debug Draw Scene for world World_12
+[2025.05.01-03.03.44:176][195]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1721.970825
+[2025.05.01-03.03.44:260][200]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.01-03.03.44:260][200]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1722.036011, Update Interval: 305.150909
+[2025.05.01-03.03.55:844][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.05.01-03.03.55:849][936]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.01-03.03.55:914][936]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MM] ([1] browsable assets)...
+[2025.05.01-03.03.55:924][936]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MM.MM]
+[2025.05.01-03.03.55:924][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/MM]
+[2025.05.01-03.03.55:924][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MM" FILE="../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Content/MM.uasset" SILENT=true
+[2025.05.01-03.03.55:926][936]LogSavePackage: Moving output files for package: /Game/MM
+[2025.05.01-03.03.55:926][936]LogSavePackage: Moving '../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Saved/MM3935A16A42B74E61AE7B52BE172D52C3.tmp' to '../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Content/MM.uasset'
+[2025.05.01-03.03.55:927][936]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MM_Inst] ([1] browsable assets)...
+[2025.05.01-03.03.55:934][936]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/MM_Inst.MM_Inst]
+[2025.05.01-03.03.55:934][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/MM_Inst]
+[2025.05.01-03.03.55:934][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MM_Inst" FILE="../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Content/MM_Inst.uasset" SILENT=true
+[2025.05.01-03.03.55:935][936]LogSavePackage: Moving output files for package: /Game/MM_Inst
+[2025.05.01-03.03.55:935][936]LogSavePackage: Moving '../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Saved/MM_Inst306062A445BBEBF4C835739C9CEE798A.tmp' to '../../../../../../Users/toombsr/Documents/GitHub/Research/MyProject/Content/MM_Inst.uasset'
+[2025.05.01-03.03.55:944][936]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.301 ms (total: 390.481 ms)
+[2025.05.01-03.03.55:979][936]LogContentValidation: Display: Starting to validate 2 assets
+[2025.05.01-03.03.55:979][936]LogContentValidation: Enabled validators:
+[2025.05.01-03.03.55:979][936]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.01-03.03.55:979][936]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.01-03.03.55:979][936]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.01-03.03.55:979][936]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.01-03.03.55:979][936]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.01-03.03.55:979][936]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.01-03.03.55:980][936]AssetCheck: /Game/MM Validating asset
+[2025.05.01-03.03.55:980][936]AssetCheck: /Game/MM_Inst Validating asset
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: ================================================
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Total job queries 196, among them cache hits 30 (15.31%), DDC hits 140 (71.43%), Duplicates 1 (0.51%)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Tracking 165 distinct input hashes that result in 145 distinct outputs (87.88%)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: RAM used: 120.26 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Shaders Compiled: 25
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Jobs assigned 25, completed 25 (100%)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Average time worker was idle: 50.53 s
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Time job spent in pending queue: average 0.83 s, longest 3.39 s
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Job execution time: average 1.68 s, max 3.76 s
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Job life time (pending + execution): average 2.50 s, max 4.02
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Shader code size: average 7.438 KiB, min 4.113 KiB, max 12.332 KiB
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.77 s
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Jobs were issued in 25 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Average processing rate: 3.22 jobs/sec
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Total thread time: 19.286 s
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Total thread preprocess time: 4.013 s
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Percentage time preprocessing: 20.81%
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Effective parallelization: 2.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 1.43 sec, max 1.63 sec, min 1.26 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.80 sec, max 0.85 sec, min 0.72 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    5 times, average 0.62 sec, max 0.68 sec, min 0.55 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.53 sec, max 0.60 sec, min 0.48 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.48 sec, max 0.59 sec, min 0.37 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 36.97% of total time (compiled    5 times, average 1.43 sec, max 1.63 sec, min 1.26 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.72% of total time (compiled    5 times, average 0.80 sec, max 0.85 sec, min 0.72 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.03% of total time (compiled    5 times, average 0.62 sec, max 0.68 sec, min 0.55 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.73% of total time (compiled    5 times, average 0.53 sec, max 0.60 sec, min 0.48 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.54% of total time (compiled    5 times, average 0.48 sec, max 0.59 sec, min 0.37 sec)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: === Material stats ===
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Materials Translated:    133
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Material Translation Only: 0.05 s (30%)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: Material Cache Hits: 19 (14%)
+[2025.05.01-03.05.13:900][172]LogShaderCompilers: Display: ================================================
+[2025.05.01-03.09.34:995][722]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2072.786377
+[2025.05.01-03.09.35:084][728]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.01-03.09.35:084][728]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2072.858643, Update Interval: 332.077393
+[2025.05.01-03.15.40:266][315]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2438.047852
+[2025.05.01-03.15.40:339][320]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.01-03.15.40:339][320]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2438.105469, Update Interval: 311.916870
+[2025.05.01-03.21.33:511][228]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2791.289307
+[2025.05.01-03.21.33:585][233]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.01-03.21.33:585][233]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2791.347900, Update Interval: 338.956879
+[2025.05.01-03.22.24:827][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.05.01-03.22.27:521][794]LogSlate: Window 'Message' being destroyed
+[2025.05.01-03.22.27:528][794]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/MM.MM
+(Selecting 'No' will cause all changes to be lost!)
+[2025.05.01-03.22.29:386][794]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2025.05.01-03.22.32:903][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.01-03.22.33:067][794]LogSlate: Window 'MM' being destroyed
+[2025.05.01-03.22.33:071][794]LogSlate: Window 'MM' being destroyed
+[2025.05.01-03.22.33:098][794]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-03.22.33:098][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-03.22.33:106][794]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-03.22.33:106][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-03.22.33:153][794]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-03.22.33:153][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-03.22.33:161][794]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-03.22.33:161][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-03.22.33:262][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
